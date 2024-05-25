@@ -1,0 +1,77 @@
+/* reset */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: palevioletred;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+
+/* Damos estilos a nuestra card */
+
+.card-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    max-width: 1200px;
+    padding: 24px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 30%;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: pink;
+}
+
+.pokemon-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.pokemon-info {
+    text-align: center;
+    margin-top: 12px;
+}
+
+.pokemon-name {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.pokemon-tipe {
+    font-style: italic;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.pokemon-description {
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+.pokemon-powers {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.pokemon-atak {
+    padding: 4px 12px;
+    font-size: 12px;
+    border-radius: 8px;
+    background-color: papayawhip;
+}
